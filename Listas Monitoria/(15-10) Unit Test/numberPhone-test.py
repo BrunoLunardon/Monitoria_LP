@@ -82,4 +82,6 @@ class MyTestCase(unittest.TestCase):
 		# Assert
 		self.assertAlmostEqual(expected, actual)
 	
-	
+
+if __name__ == '__main__':
+    unittest.main(verbosity=2)
